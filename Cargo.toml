@@ -1,0 +1,9 @@
+[package]
+name = "strings"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+edit-distance = "2.1.3"
+logos = "0.15.0"
+unicode-normalization = "0.1.24"
