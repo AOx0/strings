@@ -6,7 +6,7 @@ use logos::Logos;
 
 #[derive(Logos, Debug)]
 #[logos(skip r"[ \t\n\f]+")]
-enum Partes {
+pub enum Partes {
     #[token("de", ignore(case))]
     De,
     #[token("la", ignore(case))]
